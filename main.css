@@ -23,7 +23,7 @@ nav {
 }
 
 #offers p a {
-    color: white;
+  color: white;
 }
 
 #content {
@@ -39,11 +39,12 @@ nav {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 0.1fr 10fr;
+  grid-template-rows: 0.1fr 0.1fr 5fr 5fr;
   grid-template-areas:
     "nav"
     "offers"
-    "conten";
+    "conten"
+    "artdest";
 }
 
 #logo {
@@ -60,7 +61,7 @@ nav {
   font-size: 1.4em;
 }
 
-#video { 
+#video {
   grid-area: video;
   height: 360px;
   margin: 0 auto;
@@ -68,8 +69,11 @@ nav {
   border: black 2px solid;
 }
 
-#title {
+#homeT {
   grid-area: title;
+}
+
+.homeTitle {
   font-size: 2em;
   margin: 30px 0px 20px 0px;
   letter-spacing: 2px;
@@ -83,26 +87,26 @@ nav {
 }
 
 #catbtn {
-    grid-area: catbtn;
+  grid-area: catbtn;
 }
 
 #catbtn button {
-    font-family: "Poppins", sans-serif;
-    padding: 10px 40px 10px 40px;
-    margin-top: 10px;
-    border-radius: 40px;
-    background-color: black;
-    color: white;
-    font-size: 1.1em;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 40px 10px 40px;
+  margin-top: 10px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
 }
 
 #videoFrm {
   height: 360px;
-  width: 75%;
+  width: 65%;
   margin: 0 auto;
   margin-top: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.1fr;
   grid-template-rows: 0.1fr 0.1fr 0.1fr;
   grid-template-areas:
     "video title"
@@ -111,33 +115,76 @@ nav {
 }
 
 #artdest {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "art1 art2 art3 art4";
+  grid-area: artdest;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "art1 art2 art3 art4"; */
+  
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-items: center;
 
+  /* border: 1px solid black; */
 }
 
-#art1 {
-    grid-area: art1;
+/* #art1 {
+  grid-area: art1;
 }
 
 #art2 {
-    grid-area: art2;
+  grid-area: art2;
 }
 
 #art3 {
-    grid-area: art3;
+  grid-area: art3;
 }
 
 #art4 {
-    grid-area: art4;
+  grid-area: art4;
+} */
+
+/* .article img {
+  width: 200px;
+  border-radius: 15px;
+  border: solid black 1px;
+  margin: 10px;
 }
 
-#art1 img,
-#art2 img,
-#art3 img,
-#art4 img {
-    height: 150px;
+.article {
+  border: solid black 1px;
+  border-radius: 20px;
+  width: 220px;
+  height: 420px;
+  background-color: white;
 }
+
+.artdest {
+  width: 80%;
+}
+
+.artText {
+  margin-left: 10px;
+} */
+
+.card-text {
+  color: rgb(151, 151, 0);
+  font-weight: bold;
+}
+
+/* .carousel-item {
+} */
+
+.card-group {
+  /* margin: 15px; */
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+}
+
+/* .card {
+  margin: 10px;
+} */
+
 
