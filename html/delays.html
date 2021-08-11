@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - Indumentis</title>
+    <meta
+      name="description"
+      content="Alquiler de indumentaria para fiestas en Los Angeles y Reino Unido. Prendas del mas alto nivel, incluidos ultimos lanzamientos de marcas como Gucci, Versace, Prada o Chanel."
+    />
+    <meta name="author" content="Leandro Chelentano, Nicolas Gutierrez." />
+    <meta name="revist-after" content="2 days" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/delays.css"
+    />
+    <!-- implementar open graph tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <nav>
+        <button class="navBtn" onclick="window.open('./about.html', '_self')">Conocenos</button>
+        <button class="navBtn" onclick="window.open('./location.html', '_self')">Ubicacion</button>
+        <button class="navBtn" onclick="window.open('./mens.html', '_self')">Trajes y Zapatos</button>
+        <img src="../imgs/logo.png" alt="Logo" id="logo" onclick="window.open('../index.html', '_self')"/>
+        <button class="navBtn" onclick="window.open('./womans.html', '_self')">Vestidos y tacones</button>
+        <button class="navBtn" onclick="window.open('./delays.html', '_self')">Demoras</button>
+        <button class="navBtn" onclick="window.open('./booking.html', '_self')">Reservas</button>
+      </nav>
+      <header>
+        <p>
+          Ofertas de hasta 35% - <strong><a href="#">VER AQUI</a></strong>
+        </p>
+      </header>
+      <main>
+        <div id="title"><p class="title"><strong>Tarifas por demoras</strong></p></div>
+
+        <div id="texto">
+            <p>Para que otras personas la pasen tan bien como vos vistiendo sus prendas soñadas, llevamos a cabo un cuidadoso proceso de limpieza y mantenimiento de la ropa que ofrecemos.</p>
+            <p>Por favor, procura devolver en tiempo y forma las prendas una vez cumplido el tiempo acordado. Así nuestro equipo dispone del tiempo necesario para darles el cuidado que necesitan y dejarlas prontas para acompañar a alguien más en el viaje de los buenos momentos.</p>
+            <p>Si necesitas extender el tiempo de alquiler, hacelo con un día de anticipación.</p>
+            <p>Te presentamos las tarifas de penalización por demoras en la devolución de las prendas que alquiles:</p>
+        </div>
+
+        <table class="table-bordered">
+            <caption>Tarifas por Demoras</caption>
+            <thead>
+                <tr>
+                    <th rowspan="3">Tiempo de demora</th>
+                    <th colspan="4">Prendas</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Vestidos y trajes</th>
+                    <th colspan="2">Zapatos y tacones</th>
+                </tr>
+                <tr>
+                    <th>Costo en dias de alquiler</th>
+                    <th>Costo adicional</th>
+                    <th>Costo en dias de alquiler</th>
+                    <th>Costo adicional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>2 horas hasta 1 dia</th>
+                    <td>-</td>
+                    <td>$200</td>
+                    <td>-</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <th>1 dia</th>
+                    <td>1</td>
+                    <td>$200 + 8% del total</td>
+                    <td>1</td>
+                    <td>$50 + 4% del total</td>
+                </tr>
+                <tr>
+                    <th>2 dias</th>
+                    <td>2</td>
+                    <td>$200 + 12% del total</td>
+                    <td>2</td>
+                    <td>$50 + 8% del total</td>
+                </tr>
+                <tr>
+                    <th>3 dias</th>
+                    <td>3</td>
+                    <td>$200 + 15% del total</td>
+                    <td>3</td>
+                    <td>$50 + 10% del total</td>
+                </tr>
+                <tr>
+                    <th>4-5 dias</th>
+                    <td>5</td>
+                    <td>$250 + 25% del total</td>
+                    <td>5</td>
+                    <td>$80 + 18% del total</td>
+                </tr>
+                <tr>
+                    <th>6-7 dias</th>
+                    <td>7</td>
+                    <td>$300 + 30% del total</td>
+                    <td>7</td>
+                    <td>$100 + 20% del total</td>
+                </tr>
+                <tr>
+                    <th>8  dias</th>
+                    <td>cantidad de días de demora</td>
+                    <td>3 días de alquiler </td>
+                    <td>cantidad de días de demora </td>
+                    <td>2 días de alquiler</td>
+                </tr>
+            </tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 1fr 150px;
+  grid-template-rows: 50px 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-template-areas:
+    ". . . . ."
+    ". title title title ."
+    ". mision mision mision ."
+    ". . integrante integrante ."
+    ". vision vision vision ."
+    ". . . . .";
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.sub {
+  font-size: 1.5em;
+}
+
+.txt {
+    font-size: 1em;
+    margin-left: 30px;
+}
+
+.f {
+    margin-top: 80px;
+}
+
+#title {
+  grid-area: title;
+}
+
+#mision {
+  grid-area: mision;
+}
+
+#integrante {
+  grid-area: integrante;
+}
+
+#vision {
+  grid-area: vision;
+}

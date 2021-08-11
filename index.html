@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - Indumentis</title>
+    <meta
+      name="description"
+      content="Alquiler de indumentaria para fiestas en Los Angeles y Reino Unido. Prendas del mas alto nivel, incluidos ultimos lanzamientos de marcas como Gucci, Versace, Prada o Chanel."
+    />
+    <meta name="author" content="Leandro Chelentano, Nicolas Gutierrez." />
+    <meta name="revist-after" content="2 days" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/home.css"
+    />
+    <!-- implementar open graph tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <nav>
+        <button class="navBtn" onclick="window.open('html/about.html', '_self')">Conocenos</button>
+        <button class="navBtn" onclick="window.open('html/location.html', '_self')">Ubicacion</button>
+        <button class="navBtn" onclick="window.open('html/mens.html', '_self')">Trajes y Zapatos</button>
+        <img src="imgs/logo.png" alt="Logo" id="logo" />
+        <button class="navBtn" onclick="window.open('html/womans.html', '_self')">Vestidos y tacones</button>
+        <button class="navBtn" onclick="window.open('html/delays.html', '_self')">Demoras</button>
+        <button class="navBtn" onclick="window.open('html/booking.html', '_self')">Reservas</button>
+      </nav>
+      <header>
+        <p>
+          Ofertas de hasta 35% - <strong><a href="#">VER AQUI</a></strong>
+        </p>
+      </header>
+      <main>
+        <div id="welcome">
+          <video
+            id="video"
+            autoplay="autoplay"
+            playsinline
+            muted
+            loop
+            style="pointer-events: none"
+            title="Video Coleccion Primavera-Verano"
+            alt="Video donde se muetra la coleccion de primavera verano"
+          >
+            <source
+              src="../vids/Never Gonna Give You Up.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="../vids/Never-Gonna-Give-You-Up.ogg"
+              type="video/ogg"
+            />
+          </video>
+          <article>
+            <p id="homeT" class="welcomeTitle">
+              <b>Coleccion Primavera - Verano</b>
+            </p>
+            <p class="welcomeDesc">
+              Aliquip nulla eiusmod nisi cupidatat sunt commodo qui dolor
+              excepteur ipsum sint laboris. Nulla mollit irure commodo ipsum
+              velit elit cillum incididunt. Ut voluptate excepteur in ipsum. In
+              duis Lorem irure cupidatat aute ex labore laboris pariatur veniam
+              eu. Duis cillum dolore ullamco cillum.
+            </p>
+            <button class="welcomeBtn" id="welcomeBtn" onclick="window.open('', '_self')">
+              <strong>VER CATALOGO ></strong>
+            </button>
+          </article>
+        </div>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-group">
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Ribbed Jersey Dress.png"
+                    alt="Mujer con vestido marron mirando a camara sosteniendo su cabeza."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title" title="Ribbed Jersey Dress">
+                      Ribbed Jersey Dress
+                    </h5>
+                    <p class="card-price">$12.99</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Ribbed-Dress.png"
+                    alt="Mujer con vestido blanco de brazos cruzados posando a camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title" title="Ribber Dress">
+                      Ribbed Dress
+                    </h5>
+                    <p class="card-price">$24.99</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Ribbed-Sweater-Vest.png"
+                    alt="Mujer rubia con las manos en la espalda viendo a camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ribbed Sweater Dress</h5>
+                    <p class="card-price">$12.99</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Rib-knit-Dress.png"
+                    alt="Mujer con vestido blanco con las manos en la cintura."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Rib Kint Dress</h5>
+                    <p class="card-price">$29.99</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card-group">
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Rib-knit-Dress-Black.png"
+                    alt="Mujer con vestido negro con la mano en la nuca."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ribbed Knit Black Dress</h5>
+                    <p class="card-price">$34.99</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Rib-knit-Pants.png"
+                    alt="Mujer sentada, vestida de blanco y no mirando a camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ribbed Knit Pants</h5>
+                    <p class="card-price">$24.99</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Chaque-Azul-Marino-Chaleco-Recto.jpg"
+                    alt="Hombre con Chaque Azul Marino con Chaleco Recto."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Chaque Azul Marino</h5>
+                    <p class="card-price">130€</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Chaque-Azul-Tinta-Chaleco-Recto.jpg"
+                    alt="Hombre con Chaque Azul Tinta con Chaleco Recto."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Chaque Azul Tinta</h5>
+                    <p class="card-price">135€</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card-group">
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Traje-Azul-Marino-Camisa-Blanca.jpg"
+                    alt="Traje Azul Marino con Camisa Blanca posando para la camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Traje Azul Marino</h5>
+                    <p class="card-price">75€</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Traje-Azul-Tinta-Corbata-Azul-2.jpg"
+                    alt="Traje Azul Tinta con Camisa Blanca y corbata azul sonriendo posando para la camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Traje Azul Tinta</h5>
+                    <p class="card-price">75€</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Traje-Gris-Marengo-Camisa-Blanca.jpg"
+                    alt="Hombre de traje Negro y Camisa Blanva con buena postura mirando a camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Traje Gris Marengo</h5>
+                    <p class="card-price">75€</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card border border-dark rounded">
+                  <img
+                    class="card-images"
+                    src="../imgs/clothes/Traje-Negro-Camisa-Blanca.jpg"
+                    alt="Hombre con Traje Negro de Calle con Camisa Blanca mirando a camara."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Traje Negro</h5>
+                    <p class="card-price">75€</p>
+                    <a
+                      href="../presentation/catalogo.html"
+                      class="btn btn-primary"
+                      >Ver</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev position-relative d-inline"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+              class="carousel-control-next position-relative d-inline"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="stats">
+          <div class="stat">
+            <figure>
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="wpf:approval"
+              ></span>
+              <figcaption>
+                <p><strong>100% compradores satisfechos</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="stat">
+            <figure>
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="cil:animal"
+              ></span>
+              <figcaption>
+                <p><strong>Productos libres de crueldad animal</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="stat">
+            <figure>
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="clarity:success-standard-line"
+              ></span>
+              <figcaption>
+                <p><strong>230.000 alquileres realizados</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="stat">
+            <figure>
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="icon-park-outline:clothes-suit"
+              ></span>
+              <figcaption>
+                <p><strong>122.000 prendas en catalogo</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
